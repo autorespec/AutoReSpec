@@ -1,0 +1,74 @@
+,,Formalbench,,,,SpecGen,,,,AutoReSpec,,,
+Test case,Program type,success probability,completeness,# validator calls,time (s),success probability,completeness,# validator calls,time (s),success probability,completeness,# validator calls,time (s)
+BinarySearch,Multi-path Loop,0,0,1.2,18.32,0,0,12.14,62.37,20,28.24,15.2,12.33
+BubbleSort,Nested Loop,0,0,2.4,24.08,30,100,13.45,101.89,80,83.08,13.5,60.13
+BubbleSortDesc,Nested Loop,0,0,2.4,22.16,50,100,10.5,108.89,10,88.88,18,21.39
+CheckABeforeB,Single-path Loop,0,0,3,25.81,10,64,18.1,87.14,40,35,12,12.98
+ConvertToTitle,Single-path Loop,0,0,1,17.39,100,100,1.3,102.99,30,68.55,16.5,49.83
+DominantIndex,Multi-path Loop,0,0,3,24.05,0,0,20,84.87,30,73.19,16.1,18.5
+Fibonacci,Single-path Loop,0,0,3,19.22,40,100,8.58,48.09,50,56.34,13.5,17.55
+IsAllUnique,Multi-path Loop,0,0,3,23.4,10,11.11,16.12,108.64,30,15.87,14.6,14.97
+IsSuffix,Multi-path Loop,50,82.58,3,23.64,10,48.39,19.4,101.74,90,48.71,8.9,36.98
+LCM,Multi-path Loop,0,0,2.6,19.61,90,98.89,6.1,117.29,60,31.05,12.2,232.09
+MatrixAdd,Nested Loop,0,0,3,23.82,0,0,8.04,64.85,10,100,17.3,4.93
+MatrixMul,Nested Loop,0,0,2.2,25.66,0,0,9.07,88.85,40,44.61,15.8,86.56
+MaxInArray,Single-path Loop,10,88.89,2.8,22.87,50,22.22,16.6,72.77,70,64.67,12,32.13
+MinInArray,Single-path Loop,0,0,3,21.49,50,41.67,11.9,54.49,70,52.13,4.55,17.92
+MulLoop,Single-path Loop,0,0,1.8,17.44,80,61.9,8.8,43.85,70,54.18,9.8,27.99
+NextGreaterElem,Nested Loop,0,0,3,24.29,20,100,13.92,3111.98,90,54.55,12,39.4
+PrimeNumbers,Nested Loop,0,0,3,22.82,10,86.53,18.9,146.69,20,30.37,16.8,28.66
+RepeatedNumNested,Nested Loop,10,92.31,2.4,19.62,40,86.53,13.9,58.01,60,67.96,13.2,27.54
+RotateArray,Single-path Loop,0,0,1.8,18.39,80,86.53,4.9,99.26,10,89.66,17.2,19.23
+SelectionSort,Nested Loop,0,0,1.2,21.66,10,100,17.36,78,30,76.98,15.4,6.13
+SelectionSortDesc,Nested Loop,0,0,2.4,25.7,40,100,12.75,87.45,40,74.27,16.7,18.2
+ThreeConsecutiveOdds,Multi-path Loop,0,0,3,20.64,10,35.9,19.4,83.69,90,85.23,12.5,53.47
+TransposeMatrix,Nested Loop,0,0,3,23.41,0,0,9.88,77.71,0,0,20,46.51
+TwoSum,Nested Loop,30,88.89,3,22.68,10,0,18.1,82.8,80,67.84,11.2,29.51
+UglyNum,Nested Loop,0,0,2.4,22.71,50,98.04,7.46,71.19,30,34.76,16.5,46.12
+UglyNumLoop,Single-path Loop,0,0,2.8,19.43,80,45.97,6.27,71,50,23.21,10.7,18.96
+aastore_aaload1,Single-path Loop,30,60.52,2.6,16.38,80,60.84,8.7,83.65,50,100,14,88.92
+array_iteration01,Multi-path Loop,30,5.56,3,18.82,50,21.01,9.9,49.85,80,100,11,48.49
+ArrayWhatNot,Single-path Loop,40,56.25,2.4,16.38,10,43.75,18.1,83.55,70,52.48,13.56,92.09
+astore_aload1,Multi-path Loop,0,0,3,27.47,0,0,2.9,26.87,40,0,17.78,94.96
+BellmanFord,Nested Loop,0,0,3,26.86,10,42.86,15.5,97.22,60,92.28,15.44,309.04
+BinaryTree,Multi-path Loop,0,0,3,19.73,10,100,10,87.23,20,100,17.44,159.38
+BufferedReaderReadLine,Single-path Loop,0,0,3,21.58,80,100,3.4,106.47,0,0,20,176
+enum1,Single-path Loop,10,0,2.6,13.47,20,50,2.5,10.07,80,100,7.89,29.63
+InfiniteLoop,Single-path Loop,30,0,3,15.52,40,0,7.5,41.2,90,37.5,3.78,11.31
+InsertionSort,Nested Loop,0,0,1.8,22.45,80,100,4.8,107.91,0,100,20,191.21
+IO,Multi-path Loop,0,0,2.2,23.28,90,100,2.3,121.49,60,83.33,13,152.7
+list1,Single-path Loop,0,0,3,23.55,0,0,6.9,61.04,10,50,19.11,145.07
+list2,Single-path Loop,0,0,3,24.45,0,0,6,59.99,10,0,19.22,100.15
+MergeSortIterative,Nested Loop,0,0,1.6,32.2,10,100,1,24.57,20,100,18.33,613.84
+multinewarray,Nested Loop,0,0,3,20.89,0,0,10.4,71.7,60,44.02,15.67,143.73
+RegexMatches01,Multi-path Loop,0,0,3,19.96,30,100,8.7,85.48,30,100,15.44,108.6
+RegexMatches02,Multi-path Loop,0,0,2.2,20.41,70,100,5.3,362.16,10,100,18.78,155.14
+StringBuilderChars01,Multi-path Loop,0,0,1.8,14.11,30,100,5.6,74.3,50,15,13.44,77.03
+StringBuilderChars04,Multi-path Loop,0,0,1.6,20.84,90,96.83,1.6,105.44,30,100,17.11,132.57
+StringMiscellaneous01,Multi-path Loop,0,0,3,22.34,40,70,7.7,79.1,90,88.89,4.11,21.88
+StringMiscellaneous03,Multi-path Loop,0,0,2.6,21.31,30,50,17.2,90.55,90,100,4.22,24.97
+StringMiscellaneous04,Single-path Loop,0,0,1.6,20,90,100,3.7,116.3,30,100,17.56,278.69
+StringStartEnd01,Multi-path Loop,0,0,2.2,18.88,80,100,3.2,108.05,60,100,12.11,95.53
+StringStartEnd02,Multi-path Loop,0,0,3,18.76,0,0,13.5,74.23,30,100,16.22,102.54
+StringStartEnd03,Multi-path Loop,0,0,3,17.43,40,75,13.7,106.53,20,93.33,18.89,107.91
+TokenTest01,Multi-path Loop,0,0,3,20.29,40,100,5.8,73.62,90,88.89,6.67,64.9
+TokenTest02,Multi-path Loop,0,0,3,20.09,0,0,20,106.82,80,100,7,33.81
+Trie,Multi-path Loop,0,0,3,32.4,0,0,17.3,311.59,10,100,19,189.12
+TspSolver,Multi-path Loop,0,0,3,20.51,0,0,18.7,241.4,30,100,17.89,188.86
+AmountSeq,Sequential,0,0,3,17.39,80,25,8.1,44.59,0,0,20,203.6
+AmountBranched,Branched,0,0,3,16.83,20,17.86,4.7,22.65,10,94.12,18,220.17
+B,Sequential,0,0,3,21.66,0,0,7.7,106.18,80,78.75,7.44,110.88
+BidManager,Nested Loop,0,0,3,18.9,10,100,19.6,294.15,40,30,17.33,190.48
+BitwiseTest,Sequential,50,43.33,3,18.66,90,5.56,5.1,25.57,90,64.82,1.7,15.55
+Block,Sequential,0,0,2.8,18.37,70,100,5.3,39.67,90,100,8.77,69.07
+ColorConverter,Branched,0,0,1,16.22,60,19.21,7.5,101.76,90,87.5,9.22,294.75
+Do,Single-path Loop,20,50,2.8,15.53,100,40,1,5.13,90,27.47,3.66,12.27
+DoubleAbsolute,Branched,0,0,1.2,7.3,100,75,1,5.42,90,77.78,1.33,8.76
+EntryList,Branched,0,0,3,18.86,20,60,5.9,43.88,50,68.59,13,209.1
+HeapSort,Multi-path Loop,0,0,2.2,24.59,30,100,16.2,171.8,20,22.26,17,185.99
+MergeSort,Multi-path Loop,0,0,1.4,22.6,90,21.28,9.4,88.95,0,0,20,57.94
+MinimumUtil,Multi-path Loop,50,77.14,2.4,29.43,10,77.14,16.3,247.57,80,62.3,11.66,239.63
+MNO,Sequential,0,0,2.4,21.58,20,22.22,3.2,38.65,90,1.38,13.1,91.8
+MyObjectArray,Single-path Loop,0,0,2.2,21.22,40,100,9.2,112.4,20,66.67,16.5,134.97
+NonNull,Sequential,20,100,2.8,19.45,100,100,1.4,10.22,90,100,1.8,19.5
+Test3,Single-path Loop,0,0,1.4,17.88,100,100,1.6,105.27,40,25,12.3,71.24
