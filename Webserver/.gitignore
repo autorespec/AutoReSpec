@@ -1,0 +1,13 @@
+.vscode/
+.DS_Store
+.env-prod
+.idea
+testcases
+dist
+node_modules
+validators
+logs
+oracle
+major
+completenessAnalysis
+openjml
