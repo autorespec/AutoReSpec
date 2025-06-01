@@ -78,6 +78,7 @@ export const generateSpec = async ({
       validatorOutput,
       prompt,
       collaboratorIteration ?? 10,
+      collaborativeShotCount,
     ));
   }
 
